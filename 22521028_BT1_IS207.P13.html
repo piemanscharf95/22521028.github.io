@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#intro">Giới thiệu bản thân</a>
+        <a href="#contact">Gửi thông tin và liên hệ</a>
+    </nav>
+    
+    <div id="intro" class="intro-section">
+        <h1 style="background-color: #CAEDFF;">Giới thiệu bản thân</h1>
+        
+        <img src="https://danviet.ex-cdn.com/files/f1/296231569849192448/2022/12/20/nu-cuoi-tu-hao-cua-hoang-nhat-khi-ban-than-da-cham-duoc-den-muc-tieu-nam-do-882-1671550896799-16715508974671023115667.jpg" 
+             alt="Ảnh đại diện của tôi" 
+             width="200" 
+             height="200" 
+             class="profile-img">
+        
+        <h2 style="background-color: #D8B4F8;">Thông tin cơ bản</h2>
+        <ul>
+            <li>Họ và tên: Tô Hoàng Nhật</li>
+            <li>Năm sinh: 2004</li>
+            <li>Chuyên ngành: Công nghệ thông tin</li>
+        </ul>
+        
+        <h2 style="background-color: #D8B4F8;">Sở thích</h2>
+        
+        <h3 style="background-color: #FFC7EA;">Món ăn</h3>
+        <ol>
+            <li>Quả na</li>
+            <li>Mì bò rau thơm</li>
+            <li>Bánh đuông dừa</li>
+        </ol>
+        
+        <h3 style="background-color: #FFC7EA;">Giải trí</h3>
+        
+        <h4>Trò chơi</h4>
+        <ul>
+            <li>Đá bóng</li>
+            <li>Cầu lông</li>
+            <li>Game online</li>
+            <li>Cờ vua</li>
+        </ul>
+        
+        <h4>Bài hát yêu thích</h4>
+        <ul>
+            <li>"Nơi này có anh" - Sơn Tùng M-TP</li>
+            <li>"Lạc trôi" - Sơn Tùng M-TP</li>
+            <li>"Flop quá thì ghi tên anh vào" - Sơn Tùng M-TP</li>
+        </ul>
+        
+        <h2 style="background-color: #D8B4F8;">Mục tiêu của bản thân</h2>
+        <div class="table-container">
+            <table border="1">
+                <tr>
+                    <th>Mục tiêu</th>
+                    <th>Thời hạn</th>
+                    <th>Hoàn thành</th>
+                </tr>
+                <tr>
+                    <td>Trung bình điểm môn web đạt 8.0</td>
+                    <td>DD/MM/YYYY</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Đạt chứng chỉ ngoại ngữ đủ chuẩn tốt nghiệp</td>
+                    <td>DD/MM/YYYY</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Chọn được công ty với vị trí backend developer</td>
+                    <td>DD/MM/YYYY</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div id="contact" class="contact-section">
+        <h1 style="background-color: #CAEDFF;">Gửi thông tin và giao lưu cùng tôi</h1>
+        <form>
+            <div>
+                <label for="fullname">Họ và tên:</label><br>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label for="message">Tin nhắn:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Giới tính:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Nam</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Nữ</label>
+            </div>
+            <br>
+            <div>
+                <label>Sở thích:</label><br>
+                <input type="checkbox" id="music" name="hobbies" value="music">
+                <label for="music">Nghe nhạc</label><br>
+                <input type="checkbox" id="swimming" name="hobbies" value="swimming">
+                <label for="swimming">Bơi lội</label><br>
+                <input type="checkbox" id="beach" name="hobbies" value="beach">
+                <label for="beach">Biển</label>
+            </div>
+            <br>
+            <div>
+                <label for="major">Ngành:</label><br>
+                <select id="major" name="major">
+                    <option value="computer-science">Khoa học Máy tính</option>
+                    <option value="information-technology">Công nghệ Thông tin</option>
+                    <option value="software-engineering">Kỹ thuật Phần mềm</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Gửi">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>@2024 22521028 Tô Hoàng Nhật</p>
+    </footer>
+</body>
+</html>
